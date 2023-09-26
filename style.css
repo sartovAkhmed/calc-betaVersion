@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5%;
+}
+.calc{
+    font-size: 1.6rem;
+}
+.calc__screen{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: right;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+
+    background-color: rgba(255, 166, 0, 0.845);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+}
+.btn:hover{
+    background-color: rgba(255, 166, 0, 0.418);
+}
